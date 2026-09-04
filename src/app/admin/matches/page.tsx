@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Badge, Card, Button } from '@/components/ui';
 import { CheckCircle, XCircle, AlertTriangle } from 'lucide-react';
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://returntokin-api.onrender.com';
 
 export default function AdminMatchesPage() {
   const [matches, setMatches] = useState<any[]>([]);

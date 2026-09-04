@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui';
 import { Shield, UserCheck } from 'lucide-react';
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://returntokin-api.onrender.com';
 
 export default function AdminUsersPage() {
   const [users, setUsers] = useState<any[]>([]);

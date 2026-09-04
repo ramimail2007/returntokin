@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Shield, CheckCircle, XCircle, AlertTriangle, UserCheck } from 'lucide-react';
 import { Button, Badge, Card, SectionHeading } from '@/components/ui';
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://returntokin-api.onrender.com';
 
 export default function ConsentPage() {
   const [token, setToken] = useState('');

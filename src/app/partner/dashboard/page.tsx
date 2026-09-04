@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Shield, Users, Eye, Activity, FileText, Settings, Bell, ChevronRight, Plus } from 'lucide-react';
 import { Badge, Card, Button } from '@/components/ui';
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://returntokin-api.onrender.com';
 
 export default function PartnerDashboardPage() {
   const [stats, setStats] = useState<any>({});

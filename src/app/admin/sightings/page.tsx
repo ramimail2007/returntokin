@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Badge, Card } from '@/components/ui';
 import { MapPin, Calendar, Eye } from 'lucide-react';
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://returntokin-api.onrender.com';
 
 export default function AdminSightingsPage() {
   const [sightings, setSightings] = useState<any[]>([]);

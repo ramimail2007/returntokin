@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Badge, Card } from '@/components/ui';
 import { ChevronRight, MapPin, Calendar } from 'lucide-react';
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://returntokin-api.onrender.com';
 
 export default function MyCasesPage() {
   const [cases, setCases] = useState<any[]>([]);

@@ -1,7 +1,7 @@
 // ReturnToKin — Frontend API Client
 // Single entry point for all backend communication
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://returntokin-api.onrender.com';
 
 function getToken(): string | null {
   if (typeof window === 'undefined') return null;
