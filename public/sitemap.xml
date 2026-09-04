@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://returntokin.org/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://returntokin.org/search</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://returntokin.org/report/missing</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/report/sighting</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/safety</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/about</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/organizations</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/organizations/apply</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/find-me</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/contact</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/privacy</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://returntokin.org/terms</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://returntokin.org/login</loc><priority>0.3</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://returntokin.org/signup</loc><priority>0.3</priority><changefreq>monthly</changefreq></url>
+</urlset>
